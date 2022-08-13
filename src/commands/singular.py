@@ -1,9 +1,11 @@
+# DEPENDENCIES =================================================================
 import click
 
 from service import tiler
 from cv2 import imread, imwrite
 from pathlib import Path
 
+# COMMAND ======================================================================
 @click.command()
 @click.argument('ntiles', type = click.INT)
 @click.argument('image-path',
