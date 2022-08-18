@@ -49,7 +49,7 @@ $ python <PATH>/cli.py batch <PATH_TO_IMAGES_DIRECTORY>
 For recurrent use, you can also create an alias to call on the `cli.py` script.
 
 ```{zsh}
-$ aliase python <PATH>/cli.py
+$ alias tiler="python <PATH>/cli.py"
 ```
 
 ## Project Structure
