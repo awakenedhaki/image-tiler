@@ -4,8 +4,10 @@ from math import sqrt
 from typing import Tuple
 from numpy import ndarray
 
+
 # CONSTANTS ====================================================================
 DEFAULT_COLOR: Tuple[int, int, int] = (255, 255, 255)
+
     
 # FUNCTIONS ====================================================================
 def tiler(image: ndarray, ntiles: int) -> ndarray:

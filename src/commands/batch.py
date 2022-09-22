@@ -5,6 +5,7 @@ from pathlib import Path
 from service import tiler
 from cv2 import imread, imwrite
 
+
 # COMMAND ======================================================================
 @click.command('batch')
 @click.argument('ntiles', type = click.INT)
